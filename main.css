@@ -1,0 +1,40 @@
+*{
+    background-color: #73aed8;
+  }
+  
+  form{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  div1{
+    display: flex;
+    flex-direction: column;
+  }
+  div2{
+    display: flex;
+    flex-direction: column;
+  }
+  div3{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control{
+    margin-bottom: 50px;
+    color: white;
+  }
+  input{
+     border: solid white 1px;
+    color: white;
+  }
+  select{
+    border: solid white 1px;
+  }
+  label::focus{
+    color: white;
+  }
+  textarea{
+    border: solid white 1px;
+  }

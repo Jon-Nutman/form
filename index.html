@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form>
+        <div1>
+        
+                        <label for="fname">First name</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First" ><br>
+                        <label for="lname">Last name</label><br>
+                        <input type="text" id="lname" name="lname"placeholder="Last" ><br>
+                         <label for="email">Email Adress</label><br>
+                         <input type="text" id="email" name="email" placeholder="jondoe@email.com"><br>
+                         <label for="country">Country</label><br>
+                       <select id="country" name="country" class="form-control">
+                         <option value="">Choose a country</option>
+                         <option value="Afghanistan">Afghanistan</option>
+          
+                    <label for="bio">Biography</label><br>
+                <textarea name="bio" class="bio" placeholder="Bio"></textarea>
+        </div1>
+        <div2>
+          <label class="phone" for="phone">Phone Number</label>
+      
+                <input type="tel" id="phone" name="phone"
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                     required>
+           <label for="affiliations">Affiliations</label><br>
+            <textarea class="Affiliations" placeholder=""></textarea>   
+          <label for="occupations">Occupation</label><br>
+              <select id="Occupation" name="occupation" class="form-control"> 
+                  <option value="">Choose an occupation</option>
+                  <option value="dev">Full Stack Developer</option>
+          <label for="cname">Cat's Name</label><br>
+                <input type="text" id="cname" name="cname" placeholder="Kitty" ><br>      
+          <label for="gadget">Favortie Gadget</label><br>
+                        <input type="text" id="fgad" name="fgad" placeholder="annoy-a-tron"><br>
+            
+        </div2>
+         
+         <div3>
+            <label for="country">Type of talent</label><br>
+            <select id="talent" name="talent" class="form-control">
+                         <option class="choose" value="choose">Choose a talent</option>
+                         <option value="jug">Juggling</option>
+             
+              <label for="drink">Fav Drink</label>
+              <input type="text" id="drink" name="fname" placeholder="green tea"><br>
+             <label for="pwr">Special Power</label><br>
+                        <input type="text" id="pwr" name="pwr" placeholder="Anti-Gravity"><br> 
+              <label for="weapon">Weapon of Choice</label><br>
+                        <input type="text" id="weapon" name="weapon" placeholder="Lightsaber"><br>    
+              <label for="comments">Comments</label><br>
+            <textarea class="comments" placeholder=""></textarea>
+          </div3>
+      </form>
+</body>
+</html>
